@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/sdk/widgets">
+        <file>qml/WgtInputField.qml</file>
+        <file>qml/WgtHrefText.qml</file>
+        <file>qml/qmldir</file>
+        <file>qml/WgtButton.qml</file>
+        <file>qml/WgtScreen.qml</file>
+        <file>qml/WgtListDelegate.qml</file>
+        <file>qml/WgtTouchIcon.qml</file>
+        <file>qml/WgtNavigationBar.qml</file>
+        <file>qml/WgtText.qml</file>
+        <file>qml/WgtImage.qml</file>
+        <file>qml/Common.qml</file>
+        <file>qml/DebugPanel.qml</file>
+        <file>qml/WgtBusyIndicator.qml</file>
+        <file>qml/WgtMouseArea.qml</file>
+        <file>qml/WgtTabButton.qml</file>
+        <file>qml/WgtActionsBar.qml</file>
+        <file>qml/WgtSearchBar.qml</file>
+        <file>qml/WgtComboBox.qml</file>
+    </qresource>
+</RCC>

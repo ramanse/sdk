@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+<device name="iPhone_6_7_8" width="750" height="1334" size="4.7" dpi="326" viewport="375x667"/>
+<device name="iPhone_6_7_8_Plus" width="1080" height="1920" size="5.5" dpi="401" viewport="414x736"/>
+<device name="iPhone_X" width="1125" height="2436" size="5.8" dpi="458" viewport="375x812"/>
+<device name="GalaxyS_8_9" width="1440" height="2960" size="5.8" dpi="568" viewport="360x740"/>
+<device name="GalaxyS_8_9_Plus" width="1440" height="2960" size="6.2" dpi="531" viewport="412x846"/>
+<device name="GalaxyS_6_7" width="1440" height="2560" size="5.1" dpi="576" viewport="360x640"/>
+<device name="Galaxy_Note_8" width="1440" height="2960" size="6.3" dpi="522" viewport="360x740"/>
+<device name="GalaxyJ_3" width="720" height="1280" size="5" dpi="294" viewport="360x640"/>
+<device name="HuaweiP_8_9" width="1080" height="1920" size="5.2" dpi="424" viewport="360x640"/>
+<device name="HuaweiP_10" width="1080" height="1920" size="5.1" dpi="432" viewport="360x640"/>
+<device name="HuaweiP_20" width="1080" height="2244" size="5.8" dpi="429" viewport="360x748"/>
+<device name="Moto_Z_Z2" width="1440" height="2560" size="5.5" dpi="534" viewport="360x640"/>
+<device name="Moto_Z_Z2_Play" width="1080" height="1920" size="5.5" dpi="401" viewport="360x640"/>
+<device name="Moto_E4" width="720" height="1280" size="5" dpi="294" viewport="360x640"/>
+<device name="Moto_DROID" width="1440" height="2560" size="5.2" dpi="565" viewport="360x640"/>
+<device name="Moto_G5" width="1080" height="1920" size="5,2" dpi="424" viewport="360x640"/>
+<device name="Redmi_Note_5" width="1080" height="2160" size="6" dpi="402" viewport="393x786"/>
+<device name="Redmi_Note_4_3" width="1080" height="1920" size="5.5" dpi="401" viewport="360x640"/>
+<device name="Redmi_4" width="720" height="1280" size="5" dpi="294" viewport="360x640"/>
+<device name="Pixel_2_3_XL" width="1440" height="2880" size="6" dpi="537" viewport="412x823"/>
+<device name="Pixel_2" width="1080" height="1920" size="5" dpi="441" viewport="412x640"/>
+<device name="Pixel_3" width="1080" height="2160" size="5.5" dpi="439" viewport="393x786"/>
+<device name="Nexus_6P" width="1440" height="2560" size="5.7" dpi="515" viewport="412x738"/>
+<device name="Nexus_5" width="1080" height="1920" size="4.95" dpi="445" viewport="360x640"/>
+<device name="LGK_10_20" width="720" height="1280" size="5.3" dpi="277" viewport="360x640"/>
+<device name="LG_Artiso_Stylo" width="720" height="1280" size="5.7" dpi="258" viewport="360x640"/>
+<device name="LG_V20" width="1440" height="2560" size="5.7" dpi="515" viewport="360x640"/>
+<device name="LGK_7" width="480" height="854" size="5" dpi="196" viewport="320x570"/>
+<device name="ZTE_MAVEN" width="480" height="854" size="5" dpi="196" viewport="320x570"/>
+<device name="ZTE_MAX_PRO" width="1080" height="1920" size="6" dpi="367" viewport="360x640"/>
+<device name="OPPO_A37" width="720" height="1280" size="5" dpi="294" viewport="360x640"/>
+<device name="VIVO_SONY" width="720" height="1280" size="5" dpi="294" viewport="360x640"/>
+</info>

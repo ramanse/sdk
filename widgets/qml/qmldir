@@ -1,0 +1,18 @@
+module sdk.widgets.qml
+singleton Common 1.0 Common.qml
+DebugPanel 1.0 DebugPanel.qml
+WgtButton 1.0 WgtButton.qml
+WgtImage 1.0 WgtImage.qml
+WgtScreen 1.0 WgtScreen.qml
+WgtText 1.0 WgtText.qml
+WgtTouchIcon 1.0 WgtTouchIcon.qml
+WgtListDelegate 1.0 WgtListDelegate.qml
+WgtNavigationBar 1.0 WgtNavigationBar.qml
+WgtInputField 1.0 WgtInputField.qml
+WgtHrefText 1.0 WgtHrefText.qml
+WgtBusyIndicator 1.0 WgtBusyIndicator.qml
+WgtMouseArea 1.0 WgtMouseArea.qml
+WgtTabButton 1.0 WgtTabButton.qml
+WgtActionsBar 1.0 WgtActionsBar.qml
+WgtSearchBar 1.0 WgtSearchBar.qml
+WgtComboBox 1.0 WgtComboBox.qml

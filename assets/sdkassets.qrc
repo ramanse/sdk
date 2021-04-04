@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/sdk/assets">
+        <file>fonts/Snell_Roundhand_Script.ttf</file>
+        <file>fonts/GaramondRetrospectiveSSKItalic.ttf</file>
+        <file>fonts/GaramondRetrospectiveSSK-Bold.ttf</file>
+        <file>config/DeviceDisplayInfo.xml</file>
+        <file>fonts/Roboto-Bold.ttf</file>
+        <file>fonts/Roboto-Italic.ttf</file>
+        <file>fonts/Roboto-Regular.ttf</file>
+    </qresource>
+</RCC>
