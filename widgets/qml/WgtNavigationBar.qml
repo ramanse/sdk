@@ -13,6 +13,8 @@ Rectangle {
     property bool showHightlight: false
     property bool autoClose: true
     readonly property bool isOpen: state === "open"
+    property string selectedTextColor: Common.themeColor
+    property string textColor: "#414141"
     color: "#ffffff"
     function open() {
         state = "open"
@@ -62,8 +64,7 @@ Rectangle {
             height: Display.dp(64)
 
             property string colorize: view.currentIndex === index && showHightlight?
-                                   (root.color === "#ffffff"? Common.themeColor:"#ffffff"): (root.color === "#ffffff"?
-                                                                  "#414141" : "#cccccc")
+                                          selectedTextColor : textColor
             Rectangle {
                 width: parent.width - Display.dp(16)
                 height: parent.height
