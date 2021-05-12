@@ -123,7 +123,7 @@ bool DisplayHandler::eventFilter(QObject *obj, QEvent *event)
     if (event->type()==QEvent::KeyPress) {
         QKeyEvent* key = static_cast<QKeyEvent*>(event);
         if ( (key->key()==Qt::Key_D && key->modifiers() == Qt::SHIFT) ) {
-            showDebugPanel();
+            return false;//showDebugPanel();
         } else {
             return QObject::eventFilter(obj, event);
         }
