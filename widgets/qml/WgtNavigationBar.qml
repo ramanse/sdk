@@ -15,6 +15,7 @@ Rectangle {
     readonly property bool isOpen: state === "open"
     property string selectedTextColor: Common.themeColor
     property string textColor: "#414141"
+    property alias titleText: title.text
     color: "#ffffff"
     function open() {
         state = "open"
@@ -44,7 +45,6 @@ Rectangle {
             anchors.left: logo.right
             anchors.leftMargin: Display.dp(8)
             color: "#ffffff"
-            text: Common.titleText
         }
 
     }

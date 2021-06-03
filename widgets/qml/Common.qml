@@ -11,7 +11,6 @@ Item {
 
     readonly property real refScreenWidth: 1208
     readonly property real refScreenHeight: 720
-    readonly property string titleText: "DND Admin Panel"
     readonly property real screenWidth: Screen.width
     readonly property real screenHeight: Screen.height
     property bool isOverlayOpen: false
