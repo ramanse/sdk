@@ -15,4 +15,5 @@ WgtMouseArea 1.0 WgtMouseArea.qml
 WgtTabButton 1.0 WgtTabButton.qml
 WgtActionsBar 1.0 WgtActionsBar.qml
 WgtSearchBar 1.0 WgtSearchBar.qml
+WgtIcon 1.0 WgtIcon.qml
 WgtComboBox 1.0 WgtComboBox.qml

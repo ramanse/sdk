@@ -7,5 +7,34 @@
         <file>fonts/Roboto-Bold.ttf</file>
         <file>fonts/Roboto-Italic.ttf</file>
         <file>fonts/Roboto-Regular.ttf</file>
+        <file>icons/icon_add.png</file>
+        <file>icons/icon_backspace.png</file>
+        <file>icons/icon_cart.png</file>
+        <file>icons/icon_close.png</file>
+        <file>icons/icon_contact.png</file>
+        <file>icons/icon_disappointed.png</file>
+        <file>icons/icon_dndLogo.png</file>
+        <file>icons/icon_edit.png</file>
+        <file>icons/icon_emptyCart.png</file>
+        <file>icons/icon_feedback.png</file>
+        <file>icons/icon_home.png</file>
+        <file>icons/icon_info.png</file>
+        <file>icons/icon_list.png</file>
+        <file>icons/icon_menu.png</file>
+        <file>icons/icon_next.png</file>
+        <file>icons/icon_offersboard.png</file>
+        <file>icons/icon_ok.png</file>
+        <file>icons/icon_open_down.png</file>
+        <file>icons/icon_orders.png</file>
+        <file>icons/icon_password_show.png</file>
+        <file>icons/icon_reward.png</file>
+        <file>icons/icon_satisfied.png</file>
+        <file>icons/icon_search_action.png</file>
+        <file>icons/icon_search.png</file>
+        <file>icons/icon_share.png</file>
+        <file>icons/icon_success.png</file>
+        <file>icons/icon_t&amp;c.png</file>
+        <file>icons/icon_user.png</file>
+        <file>icons/icon_diagonalarrow.png</file>
     </qresource>
 </RCC>

@@ -9,11 +9,13 @@ Rectangle {
     color: "#f8f8f8"
     property alias pageContent: pageLoader.sourceComponent
     property alias content: pageLoader.item
+    property alias headerContent: headerLoader.item
     signal showPopup(var component)
     signal closePopup()
     signal refresh();
     signal back();
     signal contentLoaded();
+    property bool enableBusyTimer: true
     property bool showMangerHeader: false
     property alias showBusy: busyLoader.active
     property alias headerComponent: headerLoader.sourceComponent
@@ -28,7 +30,7 @@ Rectangle {
     }
     Timer {
         id: busyTimer
-        running: showBusy
+        running: showBusy && enableBusyTimer
         interval: 750
         onTriggered:  {
             showBusy = false;
@@ -68,7 +70,6 @@ Rectangle {
         anchors.top: parent.top
         width: parent.width
         height: item ? item.height : 0
-        sourceComponent: header
 
     }
 

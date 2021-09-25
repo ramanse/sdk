@@ -8,12 +8,15 @@ Rectangle {
     id: searchBar
     property alias searchFieldText: disableText.text
     property alias searchText: textInput.displayText
+    property alias editSearchText: textInput.text
     property alias showSearchIcon: searchIconItem.visible
     property var iconScale: 1.0
+    property bool showGoIcon: false
+    signal goTriggered()
     radius:  Display.dp(10)
     color: "white"
     border.color: Common.themeColor
-    border.width: 1
+    border.width: 10
     WgtTouchIcon {
         id: searchIconItem
         anchors.verticalCenter: parent.verticalCenter
@@ -52,7 +55,7 @@ Rectangle {
     WgtTouchIcon {
         id: deleteIcon
         anchors.verticalCenter: parent.verticalCenter
-        anchors.right: parent.right
+        anchors.right: goIcon.visible ? goIcon.left : parent.right
         anchors.rightMargin:  Display.dp(16)
         visible: textInput.displayText.length > 0
         colorizeTo: Common.themeColor
@@ -65,6 +68,21 @@ Rectangle {
         onLongPressed: {
             textInput.clear();
         }
+    }
+    WgtTouchIcon {
+        id: goIcon
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.right: parent.right
+        anchors.rightMargin:  Display.dp(16)
+        visible: showGoIcon && textInput.displayText.length > 0
+        colorizeTo: Common.themeColor
+        pressEffect: false
+        icon.source: Common.getQrcIcon("icon_next")
+        scale: iconScale
+        onTriggered: {
+            goTriggered();
+        }
+
     }
 
 }

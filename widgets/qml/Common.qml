@@ -44,16 +44,14 @@ Item {
     signal toHome()
 
     function getQrcIcon(iconName) {
-        if (isDNDManager)
+
             return "../../assets/icons/" + iconName +".png"
-        else
-            return "../../../dnd/ui/icons/" + iconName +".png"
+
     }
     function getQrcImage(imageName) {
-        if (isDNDManager)
+
             return "../../assets/images/" + imageName +".png"
-        else
-            return "../../../dnd/ui/images/" + imageName +".png"
+
     }
 
     function getQrcFont(ttfName) {

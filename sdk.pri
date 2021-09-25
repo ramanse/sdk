@@ -1,3 +1,4 @@
+QT += xml printsupport
 INCLUDEPATH += $$PWD/display
 DEPENDPATH += $$PWD/display
 

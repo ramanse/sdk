@@ -7,6 +7,7 @@ import sdk.widgets.display 1.0
 Item {
     id: btn
     property alias icon: _icon
+
     property alias bg: _bg
     property color colorizeTo: "white"
     property alias isShowBadge: _badge.visible

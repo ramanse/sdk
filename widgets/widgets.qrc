@@ -18,5 +18,6 @@
         <file>qml/WgtActionsBar.qml</file>
         <file>qml/WgtSearchBar.qml</file>
         <file>qml/WgtComboBox.qml</file>
+        <file>qml/WgtIcon.qml</file>
     </qresource>
 </RCC>
